@@ -1,0 +1,15 @@
+.puzzle-img {
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box;
+}
+
+.fl {
+  filter: brightness(0);
+}
+
+.puzzle-container {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-gap: 1em;
+}
